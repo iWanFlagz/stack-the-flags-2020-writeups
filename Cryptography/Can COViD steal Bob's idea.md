@@ -1,8 +1,9 @@
 # [Cryptography] Can COViD steal Bob's idea?
 
-The challenge contains a `.pcapng` file. I use `Wireshark` to open this file. 
 
-I found three interesting data in this file (via right-click the packet, `Follow` -> `TCP Stream`.
+The challenge provides a `.pcapng` file. I use `Wireshark` to open this file. 
+
+I found three interesting data in this file.
 
 1. Set filter: `tcp.stream eq 0`
 2. Right-click the packet, `Follow` -> `TCP Stream`
@@ -26,13 +27,13 @@ The user retrieves a copy of `CryptoDesign.zip` file.
 1. Set filter: `tcp.stream eq 2`
 2. Right-click the packet, `Follow` -> `TCP Stream`
 
-This is the raw data of CryptoDesign.zip. I can extract the data by selecting `raw` and then select `Save As`. I tried to extract the data in the zip file, but it is password-protected. 
+This is the raw data of CryptoDesign.zip. I can extract the data by selecting `raw` and then select `Save As`. The zip file is password-protected (probably using shared diffie-hellman key). 
 
 <p align="center">
     <img src="screenshots/tcpstream2.PNG" style="width:50%; border: 0.8px solid black" />
 </p>
 
-So, I have to figure out the shared key used by both `a` and `b`.
+So, I have to figure out the shared key.
 
 Here is some background knowledge about Diffie-Hellman (From: https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange):
 
@@ -40,7 +41,7 @@ Here is some background knowledge about Diffie-Hellman (From: https://en.wikiped
     <img src="screenshots/diffie-hellman.PNG" style="width:50%; border: 0.8px solid black" />
 </p>
 
-So, I need to find the value of `a` and `b` in order to find the value of the shared key. I used [Discrete Logarithm calculator](https://www.alpertron.com.ar/DILOG.HTM) to find a and b.
+So, I need to find the value of `a` and `b` in order to find the value of the shared key. To do this, I used [Discrete Logarithm calculator](https://www.alpertron.com.ar/DILOG.HTM).
 
 <p align="center">
     <img src="screenshots/a_value.PNG" style="width:50%; border: 0.8px solid black" />
