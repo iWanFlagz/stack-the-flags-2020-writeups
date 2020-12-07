@@ -42,7 +42,6 @@ Next, I try to extract the data from the png file using [StegOnline](https://ste
     <img src="screenshots/StegOnline.PNG" style="width:50%; border: 0.8px solid black" />
 </p>
 
-```
-Flag: govtech-csg{m3m0ry_R3dGr33nBlu3z}
-```
+
+Flag: `govtech-csg{m3m0ry_R3dGr33nBlu3z}`
 
