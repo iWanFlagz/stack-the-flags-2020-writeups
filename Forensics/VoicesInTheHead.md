@@ -92,8 +92,6 @@ The extraction was successful and finally! We successfully retrieved the flag fo
 govtech-csg{3uph0n1ou5_@ud10_ch@ll3ng3}
 ```
 
-</br>
-
 The word document also kindly provided some hints for the next challenge. Just take note to use `Ctrl + A` when highlighting the texts as some of the hints were hidden using white fonts on a white background! How sneaky!
 
 ```
