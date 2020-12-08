@@ -20,19 +20,19 @@ This repository contains write-ups for the challenges that iWanFlagz solved in G
 
    - [Voices In The Head](./Forensics/VoicesInTheHead.md)
 
-   - [Walking down a colourful memory lane](./Forensics/Walking%20down%20a%20colourful%20memory%20lane.md)
+   - [Walking down a colourful memory lane](./Forensics/Walking_down_a_colourful_memory_lane.md)
 
      
 
 3. Cryptography
 
-   - [Can COViD steal Bob's idea](./Cryptography/Can%20COViD%20steal%20Bob's%20idea.md)
+   - [Can COViD steal Bob's idea](./Cryptography/Can_COViD_steal_Bob's_idea.md)
 
      
 
 4. Internet of Things
 
-   - [COVID's Communication Technology](./Internet%20of%20Things/COVID's%20Communication%20Technology.md)
+   - [COVID's Communication Technology](./Internet-of-Things/COVID's_Communication_Technology.md)
 
      
 
